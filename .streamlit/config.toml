@@ -1,0 +1,12 @@
+[theme]
+# Primary accent color for interactive elements.
+primaryColor = "#8b9467"  # A muted green color that matches the background
+
+# Background color for the main content area.
+backgroundColor = "#f5f5f5"  # A light neutral color that won't compete with the profile photo
+
+# Background color used for the sidebar and most interactive widgets.
+secondaryBackgroundColor = "#c9e4ca"  # A pale green color that complements the blazer
+
+# Color used for almost all text.
+textColor = "#333"  # A dark neutral color that provides good contrast
