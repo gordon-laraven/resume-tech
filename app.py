@@ -1,10 +1,6 @@
-# -*- coding: utf-8 -*-
-
 from pathlib import Path
-
 import streamlit as st
 from PIL import Image
-
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -12,16 +8,13 @@ css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "laraven.jpg"
 
-
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "La Raven Gordon's Digital CV"
 PAGE_ICON = ":֎🇦🇮:"
 
 # Personal Details
 NAME = "La Raven Gordon"
-DESCRIPTION = """
-Enterprise AI Architect | AI Strategy & ML Implementation for Growing Businesses
-"""
+DESCRIPTION = "Enterprise AI Architect | AI Strategy & ML Implementation for Growing Businesses"
 EMAIL = "laraven.gordon@gmail.com"
 
 # Social Media Links
@@ -31,6 +24,8 @@ SOCIAL_MEDIA = {
     "Twitter (X)": "https://x.com/LaRaven_Gordon",
     "Threads": "https://www.threads.com/@laraven_charde",
 }
+
+# Projects & Case Studies
 PROJECTS = {
     '⚡️ Relocation Insights Application: Conversational AI with LangChain and Google Gen AI': 'https://github.com/dmmonjur/Final-project.git', 
     '🧬 AI Model Training & Optimization for Biochemistry and Chemistry Domains': 'https://app.outlier.ai/expert/referrals/link/Lxp3HlJRUJDg4naJ4g15Cg2l-_g', 
@@ -42,14 +37,12 @@ PROJECTS = {
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
-
-# --- LOAD CSS, PDF & PROFIL PIC ---
+# --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
-
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
@@ -73,19 +66,14 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-# --- EDUCATION & QUALIFICATIONS ---
-st.write('\n')
-st.subheader("Education & Qualifications")
-st.write(
-    """
 # --- PROFESSIONAL SUMMARY ---
 st.write('\n')
 st.subheader("Professional Summary")
 st.write(
+    'I\'ve built business powerhouses, and now I help small and mid-sized businesses translate strategy into AI and machine learning systems that drive growth, efficiency, and scale.'
+)
+st.write(
     """
-'I\'ve built business powerhouses, and now I help small and mid-sized businesses translate strategy into AI and machine learning systems that drive growth, efficiency, and scale.'
-AI and machine learning systems that drive growth, efficiency, and scale.
-
 With a background spanning executive leadership, entrepreneurship, and scientific research, I design
 enterprise-level AI architectures typically reserved for large organizations and make them accessible
 to growing businesses. My work emphasizes systems thinking, evidence-based decision-making, and
@@ -93,21 +81,20 @@ measurable ROI. See the Projects section for applied examples.
 """
 )
 
-
 # --- EDUCATION & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Education & Qualifications")
 st.write(
     """
 ### Education
-- 🎓 **AI & Machine Learning Certificate**, Columbia Engineering (2024)
-- 🎓 **Bachelor of Science - Biochemistry**, Rutgers University (2022)
+- :mortar_board: **AI & Machine Learning Certificate**, Columbia Engineering (2024)
+- :mortar_board: **Bachelor of Science - Biochemistry**, Rutgers University (2022)
 
 ### Certifications
-- 🎓 **AI and Machine Learning Bootcamp**, Columbia Engineering (Issued Dec 2024)
-- 📚 **Intermediate Tutor**, Tutor.com (Issued Apr 2023)
-- 🌱 **Worker Training Greenhouse**, Rutgers University–New Brunswick
-- 🔬 **Laboratory & Biosafety Training**, Rutgers University
+- :mortar_board: **AI and Machine Learning Bootcamp**, Columbia Engineering (Issued Dec 2024)
+- :books: **Intermediate Tutor**, Tutor.com (Issued Apr 2023)
+- :seedling: **Worker Training Greenhouse**, Rutgers University–New Brunswick
+- :microscope: **Laboratory & Biosafety Training**, Rutgers University
 """
 )
 
@@ -121,17 +108,16 @@ st.markdown(
 """
 )
 
-
 # --- SKILLS ---
 st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 🤖 AI/ML: LangChain, TensorFlow, PyTorch, Hugging Face, OpenAI API, Transformers, Generative AI
-- 👩‍💻 Programming: Python, SQL, Latex, REST APIs, Git, Jupyter
-- 📊 Analytics: Pandas, NumPy, Prophet, Data Visualization
-- 🗄️ Databases: Postgres, MongoDB
-- 📚 Scientific: Research Design, Validation, Biochemistry, Chemistry
+- :robot_face: AI/ML: LangChain, TensorFlow, PyTorch, Hugging Face, OpenAI API, Transformers, Generative AI
+- :woman_technologist: Programming: Python, SQL, Latex, REST APIs, Git, Jupyter
+- :bar_chart: Analytics: Pandas, NumPy, Prophet, Data Visualization
+- :card_file_box: Databases: Postgres, MongoDB
+- :books: Scientific: Research Design, Validation, Biochemistry, Chemistry
 """
 )
 
@@ -139,14 +125,13 @@ st.write('\n')
 st.subheader("Leadership & Professional Skills")
 st.write(
     """
-- 💼 Executive & Team Leadership (50+ team members)
-- 🧠 Systems Thinking & Problem Decomposition
-- 📈 Business Process Optimization
-- 🤝 Cross-Functional Collaboration
-- 🗣️ Technical Storytelling & Stakeholder Alignment
+- :briefcase: Executive & Team Leadership (50+ team members)
+- :brain: Systems Thinking & Problem Decomposition
+- :chart_with_upwards_trend: Business Process Optimization
+- :handshake: Cross-Functional Collaboration
+- :speaking_head: Technical Storytelling & Stakeholder Alignment
 """
 )
-
 
 # --- WORK HISTORY ---
 st.write('\n')
@@ -183,7 +168,6 @@ st.write(
 """
 )
 
-
 # --- PROJECTS ---
 st.write('\n')
 st.subheader("Projects & Case Studies")
@@ -191,8 +175,7 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
-
-# --- MEDIA MENTIONS ---
+# --- MEDIA ---
 st.write('\n')
 st.subheader("📣 Media Mentions")
 st.write("---")
