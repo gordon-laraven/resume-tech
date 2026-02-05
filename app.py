@@ -81,7 +81,7 @@ st.write('\n')
 st.subheader("Professional Summary")
 st.write(
     """
-I've built business powerhouses, and now I help small and mid-sized businesses translate strategy into
+'I\'ve built business powerhouses, and now I help small and mid-sized businesses translate strategy into AI and machine learning systems that drive growth, efficiency, and scale.'
 AI and machine learning systems that drive growth, efficiency, and scale.
 
 With a background spanning executive leadership, entrepreneurship, and scientific research, I design
