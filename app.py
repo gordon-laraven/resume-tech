@@ -81,7 +81,7 @@ st.write('\n')
 st.subheader("Professional Summary")
 st.write(
     """
-I’ve built business powerhouses—and now I help small and mid-sized businesses translate strategy into
+I've built business powerhouses, and now I help small and mid-sized businesses translate strategy into
 AI and machine learning systems that drive growth, efficiency, and scale.
 
 With a background spanning executive leadership, entrepreneurship, and scientific research, I design
@@ -190,14 +190,35 @@ for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
 
-# --- MEDIA ---
+# --- MEDIA MENTIONS ---
 st.write('\n')
-st.subheader("Media & Recognition")
+st.subheader("📣 Media Mentions")
 st.write("---")
 
+# 🎙️ Interviews & Podcasts
+st.markdown("### 🎙️ Interviews & Podcasts")
 st.markdown("""
-- 🎙️ **Quiet Impact Podcast** – Quiet Achiever Spotlight  
-- 📰 **NJ Legacy Work**, **Vector NJ**
-- 🎓 **Academia.edu** – *Limiting Child Exposure: The Organic Diet*
-- 🎬 **Amaranth Digital Storytelling Project**, Rutgers University
+- **Quiet Impact Podcast**: *Quiet Achiever Spotlight – Empowering Small Businesses Through AI with LaRaven Gordon*  
+  ▶️ [Watch on YouTube](https://www.youtube.com/watch?v=wcPwu0SjGBE)
+""")
+
+# 📰 Professional Features
+st.markdown("### 📰 Professional Features")
+st.markdown("""
+- **NJ Legacy Work** – [Meet Our Team](https://njlegacywork.com/our-team/)
+- **Vector NJ** – [Welcome Feature](https://njvector.com/welcome/)
+""")
+
+# 🎓 Academic & Research Recognition
+st.markdown("### 🎓 Academic & Research Recognition")
+st.markdown("""
+I’m proud to have my academic work featured across a range of platforms, combining science, storytelling, and public education:
+
+- **Academia.edu** – *Nutrition & Child Development Research*  
+  📄 Title: *Limiting Child Exposure: The Organic Diet*  
+  [Read Paper](https://www.academia.edu/36084562/Limiting_Child_Exposure_The_Organic_Diet_docx)
+
+- **Amaranth – Digital Storytelling Feature (Rutgers University)**  
+  🎬 A multimedia project exploring culture, environment, and narrative  
+  [View Story](https://storytelling.marine.rutgers.edu/amaranth/)
 """)
