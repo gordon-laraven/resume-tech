@@ -13,12 +13,12 @@ profile_pic = current_dir / "assets" / "laraven.jpg"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "La Raven Gordon's Digital CV"
-PAGE_ICON = ":👑:"
+PAGE_ICON = ":֎🇦🇮:"
 
 # Personal Details
 NAME = "La Raven Gordon"
 DESCRIPTION = """
-AI/ML SOLUTIONS SPECIALIST & SCIENTIFIC DOMAIN EXPERT
+Enterprise AI Architect | AI Strategy & ML Implementation for Growing Businesses
 """
 EMAIL = "laraven.gordon@gmail.com"
 
@@ -76,34 +76,49 @@ st.write('\n')
 st.subheader("Education & Qualifications")
 st.write(
     """
-### Education
+# --- PROFESSIONAL SUMMARY ---
+st.write('\n')
+st.subheader("Professional Summary")
+st.write(
+    """
+I’ve built business powerhouses—and now I help small and mid-sized businesses translate strategy into
+AI and machine learning systems that drive growth, efficiency, and scale.
 
+With a background spanning executive leadership, entrepreneurship, and scientific research, I design
+enterprise-level AI architectures typically reserved for large organizations and make them accessible
+to growing businesses. My work emphasizes systems thinking, evidence-based decision-making, and
+measurable ROI. See the Projects section for applied examples.
+"""
+)
+
+
+# --- EDUCATION & QUALIFICATIONS ---
+st.write('\n')
+st.subheader("Education & Qualifications")
+st.write(
+    """
+### Education
 - 🎓 **AI & Machine Learning Certificate**, Columbia Engineering (2024)
 - 🎓 **Bachelor of Science - Biochemistry**, Rutgers University (2022)
 
 ### Certifications
-
 - 🎓 **AI and Machine Learning Bootcamp**, Columbia Engineering (Issued Dec 2024)
-  - Skills: Python, Prompt Engineering, Pandas, Project Planning, Prompt Design, Machine Learning, Machine Learning Pipeline
 - 📚 **Intermediate Tutor**, Tutor.com (Issued Apr 2023)
-  - Skills: Training, Chemistry, Biochemistry, English, Academic Support Services, Calculations, Communication, Logical Thinking
-- 🌱 **Worker Training Greenhouse**, Rutgers University–New Brunswick (Issued Dec 2023 - Expired Dec 2024)
-  - Skills: Leadership, Seeding, Greenhouse, Seed Production, Seed Storage
-- 🔬 **Online Biosafety/Bloodborne Pathogens Refresher**, Rutgers University (Issued Sep 2023 - Expired Sep 2024)
-  - Skills: Leadership, Plant Biology, Laboratory Safety, Bloodborne Pathogens, Bloodborne Pathogens Training
-- 🔬 **Online Laboratory Safety Refresher**, Rutgers University (Issued Sep 2023 - Expired Sep 2024)
-  - Skills: Leadership, Plant Biology, Laboratory Safety
-- 🌱 **Online Plant and Plant-Related Research**, Rutgers University (Issued Sep 2023 - Expired Sep 2024)
-  - Skills: Leadership, Research, Plant Biology, Plant Science, Research and Critical Analysis
-
-### Key Qualifications
-
-- ✔️ Proven expertise in developing and training machine learning models across multiple domains, including Biology, Chemistry, and Creative Writing 🤖
-- ✔️ Strong experience in designing AI systems, reducing response errors by 40%, and achieving 95% user satisfaction with LLMs for scientific applications 📊
-- ✔️ Skilled in building pipelines processing 10,000+ data points with 98% accuracy, and developing ML pipelines and scientific tools 💻
-- ✔️ Excellent project management, instructional design, and data-driven decision-making skills, with experience in academic support and performance analysis 📈
+- 🌱 **Worker Training Greenhouse**, Rutgers University–New Brunswick
+- 🔬 **Laboratory & Biosafety Training**, Rutgers University
 """
 )
+
+st.markdown(
+    """
+### Key Qualifications
+- ✔️ Enterprise-level AI system design focused on business outcomes and scalability
+- ✔️ Reduced AI response errors by **40%** and achieved **95% user satisfaction**
+- ✔️ Built ML pipelines processing **10,000+ data points** with **98% accuracy**
+- ✔️ Strong executive communication and cross-functional leadership
+"""
+)
+
 
 # --- SKILLS ---
 st.write('\n')
@@ -111,120 +126,78 @@ st.subheader("Hard Skills")
 st.write(
     """
 - 🤖 AI/ML: LangChain, TensorFlow, PyTorch, Hugging Face, OpenAI API, Transformers, Generative AI
-- 👩‍💻 Programming: Python, SQL, REST APIs, Git, Jupyter
-- 📊 Data Analysis: Data Visualization, MS Excel, Pandas, NumPy, Prophet
+- 👩‍💻 Programming: Python, SQL, Latex, REST APIs, Git, Jupyter
+- 📊 Analytics: Pandas, NumPy, Prophet, Data Visualization
 - 🗄️ Databases: Postgres, MongoDB
-- 📚 Scientific: Biochemistry, Chemistry, Plant Biology, Research, Lab Protocols, Scientific Validation
-- 📈 Financial: Financial APIs
-- 💬 NLP: Major language models (ChatGPT, Gemini, Deep AI)
+- 📚 Scientific: Research Design, Validation, Biochemistry, Chemistry
 """
 )
 
 st.write('\n')
-st.subheader("Soft Skills")
+st.subheader("Leadership & Professional Skills")
 st.write(
     """
-- 💼 Leadership: Led AI integration and automation projects, Led 50+ representatives
-- 📈 Project Management: Developed and implemented AI customer service, Developed analytics and virtual training systems
-- 💬 Communication: Developed and streamlined technical academic content, Provided academic support and performance analysis
-- 🤔 Problem-Solving: Designed AI systems reducing response errors by 40%, Built pipelines processing 10,000+ data points with 98% accuracy
-- 💡 Critical Thinking: Applied AI/ML expertise to scientific domain knowledge, Bridged complex scientific concepts with practical business applications
-- 👥 Teamwork: Collaborated on projects, including AI model training and optimization
-- 🔄 Adaptability: Adapted to new technologies and applications, including LangChain and Google Gen AI
-- ⏰ Time Management: Managed multiple projects and tasks, including AI model training and optimization
+- 💼 Executive & Team Leadership (50+ team members)
+- 🧠 Systems Thinking & Problem Decomposition
+- 📈 Business Process Optimization
+- 🤝 Cross-Functional Collaboration
+- 🗣️ Technical Storytelling & Stakeholder Alignment
 """
 )
+
 
 # --- WORK HISTORY ---
 st.write('\n')
-st.subheader("Work History")
+st.subheader("Professional Experience")
 st.write("---")
 
-# --- JOB 1
-st.write('\n')
-st.write("🚧", "**AI Solutions Specialist & Data Auditor | Freelance**")
+st.write("🚧", "**Enterprise AI Architect & Solutions Lead**")
 st.write("Dec 2023 - Present")
 st.write(
     """
-- ► Helped businesses harness the power of AI to drive growth and innovation
-- ► Provided expert training, developed machine learning models, and created customized AI solutions
-- ► Designed AI systems reducing response errors by 40%
+- ► Designed and implemented AI strategy aligned with business objectives
+- ► Evaluated and tested leading AI models for real-world operational fit
+- ► Built scalable AI systems, automation pipelines, and analytics platforms
 """
 )
 
-# --- JOB 2
-st.write('\n')
-st.write("🚧", "**Small Business AI Implementation Specialist | Freelance**")
-st.write("Dec 2023 - Present")
-st.write(
-    """
-- ► Helped small businesses integrate AI tools to streamline operations, improve customer experiences, and support growth
-- ► Assessed business needs, recommended tailored AI solutions, and guided smooth implementation and adoption
-- ► Led AI integration and automation projects
-"""
-)
-
-# --- JOB 3
 st.write('\n')
 st.write("🔬", "**Laboratory Assistant | Rutgers University–New Brunswick**")
 st.write("Sep 2023 - Feb 2024")
 st.write(
     """
-- ► Executed sample preparation for nutritional and mineral analysis
-- ► Analyzed and interpreted data for science storytelling
-- ► Performed greenhouse and laboratory safety for a clean and productive work environment
+- ► Conducted nutritional and mineral analysis using validated protocols
+- ► Translated scientific data into clear insights and narratives
 """
 )
 
-# --- JOB 4
 st.write('\n')
 st.write("📚", "**Tutor | The Princeton Review**")
 st.write("Nov 2022 - Nov 2023")
 st.write(
     """
-- ► Coached students of various academic levels to become better students
-- ► Analyzed and assessed students' problem areas
-- ► Consulted students and parents with areas of weakness and strength
+- ► Diagnosed learning gaps and built structured improvement systems
+- ► Strengthened analytical reasoning and problem-solving skills
 """
 )
 
-# --- Projects & Accomplishments ---
+
+# --- PROJECTS ---
 st.write('\n')
-st.subheader("Projects & Accomplishments")
+st.subheader("Projects & Case Studies")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
 
-# --- Media Mentions ---
+# --- MEDIA ---
 st.write('\n')
-st.subheader("📣 Media Mentions")
+st.subheader("Media & Recognition")
 st.write("---")
 
-# 🎙️ Interviews & Podcasts
-st.markdown("### 🎙️ Interviews & Podcasts")
 st.markdown("""
-- **Quiet Impact Podcast**: *Quiet Achiever Spotlight – Empowering Small Businesses Through AI with LaRaven Gordon*  
-  ▶️ [Watch on YouTube](https://www.youtube.com/watch?v=wcPwu0SjGBE)
-""")
-
-# 📰 Professional Features
-st.markdown("### 📰 Professional Features")
-st.markdown("""
-- **NJ Legacy Work** – [Meet Our Team](https://njlegacywork.com/our-team/)
-- **Vector NJ** – [Welcome Feature](https://njvector.com/welcome/)
-""")
-
-# 🎓 Academic & Research Recognition
-st.markdown("### 🎓 Academic & Research Recognition")
-st.markdown("""
-I’m proud to have my academic work featured across a range of platforms, combining science, storytelling, and public education:
-
-- **Academia.edu** – *Nutrition & Child Development Research*  
-  📄 Title: *Limiting Child Exposure: The Organic Diet*  
-  [Read Paper](https://www.academia.edu/36084562/Limiting_Child_Exposure_The_Organic_Diet_docx)
-
-- **Amaranth – Digital Storytelling Feature (Rutgers University)**  
-  🎬 A multimedia project exploring culture, environment, and narrative  
-  [View Story](https://storytelling.marine.rutgers.edu/amaranth/)
+- 🎙️ **Quiet Impact Podcast** – Quiet Achiever Spotlight  
+- 📰 **NJ Legacy Work**, **Vector NJ**
+- 🎓 **Academia.edu** – *Limiting Child Exposure: The Organic Diet*
+- 🎬 **Amaranth Digital Storytelling Project**, Rutgers University
 """)
