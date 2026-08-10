@@ -15,7 +15,7 @@ PAGE_ICON = ":֎🇦🇮:"
 # Personal Details
 NAME = "La Raven Gordon"
 DESCRIPTION = """
-Enterprise AI Architect | AI Strategy & ML Implementation for Growing Businesses
+Enterprise AI Brain Specialist | LLM Training & Evaluation | AI Brain Clone Methodology for SMBs | Foundation-First AI Adoption | Generative AI Strategist
 """
 EMAIL = "laraven.gordon@gmail.com"
 
@@ -148,13 +148,13 @@ st.write('\n')
 st.subheader("Professional Experience")
 st.write("---")
 
-st.write("🚧", "**Enterprise AI Architect & Solutions Lead**")
+st.write("🚧", "**Enterprise AI Brain Specialist**")
 st.write("Dec 2023 - Present")
 st.write(
     """
-- ► Designed and implemented AI strategy aligned with business objectives
-- ► Evaluated and tested leading AI models for real-world operational fit
-- ► Built scalable AI systems, automation pipelines, and analytics platforms
+- ► Architect and evaluate AI models using LLM training expertise — RLHF pipelines, preference ranking, adversarial red-teaming, refusal/logic auditing, and rubric design — on frontier models.
+- ► Apply the Three Brains framework (natural judgment, organized knowledge, AI brain clone) to build systems that reflect trained human judgment rather than generic outputs.
+- ► Advise on compliance and ethics considerations (copyright, data privacy, regulatory exposure) in AI-generated content.
 """
 )
 
