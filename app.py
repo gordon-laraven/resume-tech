@@ -10,18 +10,19 @@ profile_pic_file = current_dir / "assets" / "laraven.jpg"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "La Raven Gordon's Digital CV"
-PAGE_ICON = ":֎🇦🇮:"
+PAGE_ICON = "🧠"
 
 # Personal Details
 NAME = "La Raven Gordon"
 DESCRIPTION = """
-Enterprise AI Architect | AI Strategy & ML Implementation for Growing Businesses
+Enterprise AI Brain Specialist | LLM Training & Evaluation · Foundation-First AI Implementation | Founder, LCGIS
 """
 EMAIL = "laraven.gordon@gmail.com"
 
 # Social Media Links
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/laraven-gordon/",
+    "Substack": "https://aibrainclone.substack.com/",
     "GitHub": "https://github.com/gordon-laraven",
     "Twitter (X)": "https://x.com/LaRaven_Gordon",
     "Threads": "https://www.threads.com/@laraven_charde",
@@ -30,7 +31,7 @@ SOCIAL_MEDIA = {
 # Projects
 PROJECTS = {
     '⚡️ Relocation Insights Application: Conversational AI with LangChain and Google Gen AI': 'https://github.com/dmmonjur/Final-project.git', 
-    '🧬 AI Model Training & Optimization for Biochemistry and Chemistry Domains': 'https://app.outlier.ai/expert/referrals/link/Lxp3HlJRUJDg4naJ4g15Cg2l-_g', 
+    '🧬 AI Model Training & Evaluation: 28+ Confidential Enterprise Projects (RLHF, Rubric Design, Fact-Checking, Red-Teaming)': None, 
     '🏊‍♀️ Olympic Swimming Analysis: Historical Data Processing and Forecasting': 'https://github.com/kkuria1/Olympic-swimming-analysis.git', 
     '💳 Banking Interface System: Secure Transaction System with Conversational Flows': 'https://github.com/gordon-laraven/customer_banking.git', 
     '🥗 Indigenous Vegetables Research: Nutritional Analysis and Educational Materials': 'https://storytelling.marine.rutgers.edu/amaranth/', 
@@ -79,8 +80,12 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 st.write('\n')
 st.subheader("Core Expertise")
 st.write(
-    'I\'ve built business powerhouses, and now I help small and mid-sized businesses translate strategy into AI and machine learning systems that drive growth, efficiency, and scale.\n\n'
-    'With a background spanning executive leadership, entrepreneurship, and scientific research, I design enterprise-level AI architectures typically reserved for large organizations and make them accessible to growing businesses. My work emphasizes systems thinking, evidence-based decision-making, and measurable ROI. See the Projects section for applied examples.'
+    "I train and evaluate frontier AI models from the inside (RLHF, preference ranking, adversarial red-teaming, rubric design, fact-checking), "
+    "and I use that experience to help small and mid-sized businesses adopt AI the right way.\n\n"
+    "My framework, **Three Brains**, starts with human judgment (First Brain), builds documented systems and SOPs (Second Brain), "
+    "and only then adds AI tools and automation (Third Brain). Most AI rollouts fail because they skip straight to the third. "
+    "My background spans sales leadership, scientific research, and enterprise AI training, and I write about the work at "
+    "[AI Brain Clone](https://aibrainclone.substack.com/)."
 )
 
 # --- EDUCATION & CREDENTIALS ---
@@ -99,6 +104,7 @@ st.subheader("Certifications")
 st.write(
     """
 - 🎓 **AI and Machine Learning Bootcamp**, Columbia Engineering (Issued Dec 2024)
+- 🤖 **Claude 101** and **AI Fluency: Framework & Foundations**, Anthropic
 - 📚 **Intermediate Tutor**, Tutor.com (Issued Apr 2023)
 - 🌱 **Worker Training Greenhouse**, Rutgers University–New Brunswick
 - 🔬 **Laboratory & Biosafety Training**, Rutgers University
@@ -110,7 +116,8 @@ st.write('\n')
 st.subheader("Key Qualifications & Impact")
 st.write(
     """
-- ✔️ Enterprise-level AI system design focused on business outcomes and scalability
+- ✔️ 28+ enterprise AI training and evaluation projects for frontier AI labs (details confidential under NDA)
+- ✔️ Built and delivered onboarding frameworks for large teams (300 new hires trained in 3 days)
 - ✔️ Reduced AI response errors by 40% and achieved 95% user satisfaction
 - ✔️ Built ML pipelines processing 10,000+ data points with 98% accuracy
 - ✔️ Strong executive communication and cross-functional leadership
@@ -135,7 +142,7 @@ st.write('\n')
 st.subheader("Leadership & Professional Skills")
 st.write(
     """
-- 💼 Executive & Team Leadership (50+ team members)
+- 💼 Sales & Team Leadership (50+ team members)
 - 🧠 Systems Thinking & Problem Decomposition
 - 📈 Business Process Optimization
 - 🤝 Cross-Functional Collaboration
@@ -148,13 +155,13 @@ st.write('\n')
 st.subheader("Professional Experience")
 st.write("---")
 
-st.write("🚧", "**Enterprise AI Architect & Solutions Lead**")
+st.write("🧠", "**Founder & Enterprise AI Brain Specialist | LCGIS (LC Gordon Intelligent Systems)**")
 st.write("Dec 2023 - Present")
 st.write(
     """
-- ► Designed and implemented AI strategy aligned with business objectives
-- ► Evaluated and tested leading AI models for real-world operational fit
-- ► Built scalable AI systems, automation pipelines, and analytics platforms
+- ► Train and evaluate LLMs across 28+ confidential enterprise projects: RLHF, preference ranking, red-teaming, rubric architecture, and domain fact-checking
+- ► Advise small and mid-sized businesses using the Three Brains framework: judgment first, systems second, AI tools third
+- ► Design onboarding, SOP, and automation systems, including ethics and data-privacy safeguards
 """
 )
 
@@ -178,12 +185,21 @@ st.write(
 """
 )
 
+st.write('\n')
+st.write("📈", "**Field Sales Manager → Branch Manager | Vector Marketing**")
+st.write(
+    """
+- ► Led 50+ representatives; built hiring, training, and leadership-development systems
+- ► Built an onboarding framework that trained 300 new hires in 3 days
+"""
+)
+
 # --- SELECTED PROJECTS ---
 st.write('\n')
 st.subheader("Selected Projects")
 st.write("---")
 for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+    st.write(f"[{project}]({link})" if link else project)
 
 # --- MEDIA & RECOGNITION ---
 st.write('\n')
@@ -191,6 +207,9 @@ st.subheader("📣 Media & Recognition")
 st.write("---")
 
 # 🎙️ Interviews & Podcasts
+st.markdown("### ✍️ Writing")
+st.markdown("- **AI Brain Clone** (Substack): [aibrainclone.substack.com](https://aibrainclone.substack.com/)")
+
 st.markdown("### 🎙️ Interviews & Podcasts")
 st.markdown("""
 - **Quiet Impact Podcast**: *Quiet Achiever Spotlight – Empowering Small Businesses Through AI with LaRaven Gordon*  
