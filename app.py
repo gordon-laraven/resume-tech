@@ -155,13 +155,24 @@ st.write('\n')
 st.subheader("Professional Experience")
 st.write("---")
 
-st.write("🧠", "**Founder & Enterprise AI Brain Specialist | LCGIS (LC Gordon Intelligent Systems)**")
+st.write("🧠", "**Enterprise AI Brain Specialist | Self-Employed**")
 st.write("Dec 2023 - Present")
 st.write(
     """
-- ► Train and evaluate LLMs across 28+ confidential enterprise projects: RLHF, preference ranking, red-teaming, rubric architecture, and domain fact-checking
-- ► Advise small and mid-sized businesses using the Three Brains framework: judgment first, systems second, AI tools third
-- ► Design onboarding, SOP, and automation systems, including ethics and data-privacy safeguards
+- ► Train and evaluate frontier LLMs across 28+ confidential enterprise projects: RLHF pipelines, preference ranking, adversarial red-teaming, refusal/logic auditing, and rubric design
+- ► Apply the Three Brains framework to build systems that reflect trained human judgment rather than generic outputs
+- ► Advise on compliance and ethics: copyright, data privacy, and regulatory exposure in AI-generated content
+"""
+)
+
+st.write('\n')
+st.write("🧩", "**SMB & Individual AI Implementation Specialist | LCGIS (LC Gordon Intelligent Systems)**")
+st.write("Jun 2021 - Present")
+st.write(
+    """
+- ► Guide clients through a foundation-first method: readiness and fit assessment, discovery, and frictionless integration
+- ► Help small businesses and individuals move beyond copy-paste prompts toward trained, personalized judgment
+- ► Drive adoption across analytics, customer service, and internal automation
 """
 )
 
@@ -186,11 +197,13 @@ st.write(
 )
 
 st.write('\n')
-st.write("📈", "**Field Sales Manager → Branch Manager | Vector Marketing**")
+st.write("📈", "**Vector Marketing**")
+st.write("Field Sales Manager (Oct 2020 - Present) · Event Sales Specialist (Apr 2021 - Present) · Branch Manager (Apr 2022 - Oct 2022) · Assistant Manager (Jan 2021 - May 2022)")
 st.write(
     """
-- ► Led 50+ representatives; built hiring, training, and leadership-development systems
+- ► Led and coached 50+ representatives; hired, trained, and developed sales teams
 - ► Built an onboarding framework that trained 300 new hires in 3 days
+- ► President's Club inductee
 """
 )
 
