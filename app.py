@@ -15,7 +15,7 @@ PAGE_ICON = "🧠"
 # Personal Details
 NAME = "La Raven Gordon"
 DESCRIPTION = """
-Enterprise AI Brain Specialist | LLM Training & Evaluation · Foundation-First AI Implementation | Founder, LCGIS
+Enterprise AI Brain Specialist | LLM Training & Evaluation | AI Brain Clone Methodology for SMBs | Foundation-First AI Implementation | Founder, LCGIS | Generative AI Strategist
 """
 EMAIL = "laraven.gordon@gmail.com"
 
@@ -197,8 +197,8 @@ st.write(
 )
 
 st.write('\n')
-st.write("📈", "**Vector Marketing**")
-st.write("Field Sales Manager (Oct 2020 - Present, now on a consulting basis) · Event Sales Specialist (Apr 2021 - Present) · Branch Manager (Apr 2022 - Oct 2022) · Assistant Manager (Jan 2021 - May 2022)")
+st.write("📈", "**Field Sales Manager & Consultant | Vector Marketing**")
+st.write("Field Sales Manager & Consultant (Oct 2020 - Present) · Event Sales Specialist & Consultant (Apr 2021 - Present) · Branch Manager (Apr 2022 - Oct 2022) · Assistant Manager (Jan 2021 - May 2022)")
 st.write(
     """
 - ► Led and coached 50+ representatives; hired, trained, and developed sales teams
