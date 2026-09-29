@@ -166,7 +166,7 @@ st.write(
 )
 
 st.write('\n')
-st.write("🧩", "**SMB & Individual AI Implementation Specialist | LCGIS (LC Gordon Intelligent Systems)**")
+st.write("🧩", "**Founder, SMB & Individual AI Implementation Specialist | LCGIS (LC Gordon Intelligent Systems)**")
 st.write("Jun 2021 - Present")
 st.write(
     """
@@ -198,7 +198,7 @@ st.write(
 
 st.write('\n')
 st.write("📈", "**Vector Marketing**")
-st.write("Field Sales Manager (Oct 2020 - Present) · Event Sales Specialist (Apr 2021 - Present) · Branch Manager (Apr 2022 - Oct 2022) · Assistant Manager (Jan 2021 - May 2022)")
+st.write("Field Sales Manager (Oct 2020 - Present, now on a consulting basis) · Event Sales Specialist (Apr 2021 - Present) · Branch Manager (Apr 2022 - Oct 2022) · Assistant Manager (Jan 2021 - May 2022)")
 st.write(
     """
 - ► Led and coached 50+ representatives; hired, trained, and developed sales teams
